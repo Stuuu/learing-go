@@ -1,15 +1,14 @@
-package main
+package main 
 
-import (
-	"fmt"
-	"math"
-)
-
-var myNumber = 1.23
-
+import "fmt"
 
 func main() {
-	roundedUp := math.Ceil(myNumber)
-	roundedDown := math.Floor(myNumber)
-	fmt.Println(roundedUp , roundedDown)
+
+	var a int = 22;
+
+	a = 5423490234
+
+	fmt.Println(a);
+
+
 }
